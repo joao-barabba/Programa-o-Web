@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+}
+.container{
+	height: 400px;
+	max-width: 980px;
+	width: 95%;
+	padding: 5%;
+	margin: 10px auto;
+	border-bottom: 1px solid black;
+
+}
+header h1{
+	font-size: 30px;
+	margin-bottom: 10px;	
+}
+header p{
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+.foto{
+	height: 300px;
+	width: 300px;
+	border: 1px solid black;
+	float:right;
+	transform: scale(0.9);
+
+}
+.foto:hover{
+	width: 400px;
+	height:400px;
+	float:right;
+	transform: scale(1);
+	transition-duration: 1s;
+
+}
+.link:hover{
+	text-decoration: underline;
+	transition-duration: 0.4s;
+	color: red;
+
+}
+.git:hover{
+	text-decoration: underline;
+	transition-duration: 0.4s;
+	color: red;
+}
+.escolaridade{
+	height: 150px;
+	max-width: 980px;
+	width: 95%;
+	padding: 5%;
+	margin: 10px auto;
+	margin-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+.escolaridade h2{
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.escolaridade p{
+	font-size: 18px;
+	margin-bottom: 8px;
+
+}
+.graduacao{
+	height: 150px;
+	max-width: 980px;
+	width: 95%;
+	padding: 5%;
+	margin: 10px auto;
+	margin-bottom: 20px;
+
+}
+.graduacao h2{
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.graduacao ul li{
+
+	font-size: 18px;
+	margin-bottom: 8px;
+
+}
+.xp{
+	height: 150px;
+	max-width: 980px;
+	width: 95%;
+	padding: 5%;
+	margin: 10px auto;
+	margin-bottom: 20px;
+
+}
+.xp h2{
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.xp ul li{
+	font-size: 18px;
+	margin-bottom: 8px;
+
+}
+
